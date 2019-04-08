@@ -9,7 +9,7 @@
 │   ├── config.txt
 │   ├── configuration.py
 │   ├── dropbox_upload_delete.py
-│   ├── **microscope.py**
+│   ├── microscope.py
 │   └── pump_system.py
 ├── README.docx
 ├── README.md
