@@ -2,8 +2,8 @@
 # IBM_MICROSCOPE
 
 - [Schematic](#Schematic)
-- [Setup and Use](#Setup and Use)
-- [Changing Startup Settings](#Changing Startup Settings)
+- [Setup and Use](#Setup-and-Use)
+- [Changing Startup Settings](#Changing-Startup-Settings)
 
 
 ## Schematic
