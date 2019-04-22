@@ -65,8 +65,8 @@ def check_folder_size(path,max_storage_size):
     gbyte_size = int(str_size)/1048576
     if gbyte_size > max_storage_size:
         all_files = path+'/*'
-        subprocess.call(['rm -rf '+ all_files],shell= True)
-        erased =1
+        subprocess.call(['rm -rf '+ all_files],shell = True)
+        erased = 1
     return(erased)
 
 
@@ -90,7 +90,7 @@ def main():
     # Continue running the code but not uploading to Dropbox the files
     # local_storage = 1 - Files are saved just locally - This option happens when there is a problem with the Dropbox Account, for instance, there is no space free to upload more images
     # local_storage = 0 - Files are saved locally and in the Dropbox
-    local_storage = 0    
+    local_storage = 1    
   
     # DROPBOX
     # Create instance of a Dropbox class, which can make requests to API
@@ -109,7 +109,7 @@ def main():
     # Delete Flag
     # If delete = 1, then delete the files after upload
     # If delete = 0, then keep saved locally the files after upload
-    delete = 1
+    delete = 0
     
     # List of Images to Upload: List related to the images didn't upload after its capture.
     images_not_uploaded = []
